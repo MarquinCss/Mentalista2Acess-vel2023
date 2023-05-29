@@ -21,11 +21,11 @@ function exibeChuteNaTela(chute) {
      `
 }
 if (chuteForInvalido(numero)) {
-        if (chute.toUpperCase() === "GAME OVER") {
+        if (chute.toUpperCase() === "ACABAR") {
 
             document.body.innerHTML =
                 `
-                <h2>Game Over!!!</h2>
+                <h2>Acabou!</h2>
                 <h3>Pressione o botão para jogar novamente</h3>
                 <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
                 `
