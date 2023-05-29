@@ -21,7 +21,7 @@ function exibeChuteNaTela(chute) {
      `
 }
 if (chuteForInvalido(numero)) {
-        if (chute.toUpperCase() === "ACABAR") {
+        if (chute.toUpperCase() === "GAME OVER") {
 
             document.body.innerHTML =
                 `
